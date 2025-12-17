@@ -11,7 +11,7 @@ About:
 * Last but not least, a wishlist feature
 * And many more!
 
-### Setup .env file in RTG Folder
+### Setup laravel before using it
 ```terminal
 cd /xampp/htdocs/RTG
 php artisan serve 
