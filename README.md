@@ -17,11 +17,9 @@ Please excuse any limitations or simplicity, as this project is intended as a ba
 
 Make sure you already have:
 
-XAMPP (Apache + MySQL + PHP)
-
-Composer
-
-Laravel installed
+- XAMPP (Apache + MySQL + PHP)
+- Composer
+- Laravel installed
 
 ```terminal
 cd C:/xampp/htdocs/RTG
