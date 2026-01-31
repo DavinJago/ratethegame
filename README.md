@@ -31,3 +31,7 @@ php artisan serve
 
 then open in your browser
 ```http://127.0.0.1:8000```
+
+Even though the project is placed inside xampp/htdocs, Laravel still requires:
+```php artisan serve```
+because Laravel uses its own development server.
