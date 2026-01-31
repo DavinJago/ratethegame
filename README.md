@@ -1,18 +1,33 @@
-<h1 align="center">Rate The Game</h1>
+# Rate The Game 👾
 
-<p align="justify">A website whose content focuses on game ratings, roughly similar to major sites like IMDb, IGN, and Metacritic, but in a simpler version. The pages consist of several basic features such as rating games, viewing game information, reading the latest gaming news, and other related features.</p>
+Rate The Game is a web application focused on video game ratings, similar to platforms like IMDb, IGN, and Metacritic — but in a simpler version.
+This project allows users to rate games freely, view detailed game information, explore upcoming and newly released games, read the latest gaming news, and access several other basic features.
 
-About:
+Please excuse any limitations or simplicity, as this project is intended as a basic full-stack practice project.
 
-* 🎮 Rate and review games, and share your own opinions ⭐🔥
-* 📰 Read the latest gaming news 🕹️
-* 🚀 Explore the newest, upcoming, and classic games ⏳✨
-* 👤 Enjoy a dynamic user profile feature 😎
-* 💖 Last but not least, a wishlist feature 📝💫
-* ✨ And many more exciting features coming soon! 🚧🔥
+## Features 🪶
+* Display newly released and upcoming games
+* Rate games freely
+* Simple and clean UI/UX
+* Basic user profile system
+* And several other features
 
-### Setup laravel before using it
+
+### Installation & Setup (Laravel)
+
+Make sure you already have:
+XAMPP (Apache + MySQL + PHP)
+Composer
+Laravel installed
+
 ```terminal
-cd /xampp/htdocs/RTG
-php artisan serve 
+cd C:/xampp/htdocs/RTG
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate
+php artisan serve
 ```
+
+then open in your browser
+```http://127.0.0.1:8000```
