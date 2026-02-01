@@ -42,7 +42,7 @@ because Laravel uses its own development server.\
 
 ## Notes : the game page is not finished yet due to deadline.
 
-<img width="2524" height="1355" alt="Screenshot 2026-02-01 232612" src="https://github.com/user-attachments/assets/7bf1630f-d330-4dff-9cf3-43f7e446f375" />
-<img width="2525" height="1353" alt="Screenshot 2026-02-01 232604" src="https://github.com/user-attachments/assets/9ea49f3d-b680-4bc5-9b1e-88970230babc" />
-<img width="2527" height="1356" alt="Screenshot 2026-02-01 232555" src="https://github.com/user-attachments/assets/90a2200d-f013-4538-835e-644fb65c013f" />
 <img width="2530" height="1348" alt="Screenshot 2026-02-01 232524" src="https://github.com/user-attachments/assets/32615f6d-e1bc-4318-8343-2ba5a390ac3e" />
+<img width="2527" height="1356" alt="Screenshot 2026-02-01 232555" src="https://github.com/user-attachments/assets/90a2200d-f013-4538-835e-644fb65c013f" />
+<img width="2525" height="1353" alt="Screenshot 2026-02-01 232604" src="https://github.com/user-attachments/assets/9ea49f3d-b680-4bc5-9b1e-88970230babc" />
+<img width="2524" height="1355" alt="Screenshot 2026-02-01 232612" src="https://github.com/user-attachments/assets/7bf1630f-d330-4dff-9cf3-43f7e446f375" />
