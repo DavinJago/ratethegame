@@ -13,10 +13,10 @@ Please excuse any limitations or simplicity, as this project is intended as a ba
 * And several other features
 
 ## Contributors
-- Davin (CSS)
-- Hamzah (HTML)
-- Rizky (JS & Auth)
-- Tuppal (PHP & Database)
+- Davin (Authentication Pages, UI Styling (CSS), Project Structure, Hosting)
+- Hamzah (HTML Markup & Initial CSS Layout)
+- Rizky (JavaScript Logic & Authentication Controllers)
+- Tuppal (Backend Development (PHP) & Database Design)
 
 ## Installation & Setup (Laravel)
 
