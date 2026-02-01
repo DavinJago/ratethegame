@@ -1,0 +1,168 @@
+body {
+    font-family: 'poppins';
+    background: grey;
+}
+
+.login-awal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.login-box {
+    background: #ffffff;
+    height: 650px;
+    width: 500px;
+    padding: 50px;
+    border-radius: 8px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    margin-right: 10px;
+}
+
+.logo b {
+    color: #009AEA;
+    font-family: 'helvetica';
+    font-size: 45px;
+}
+
+.dont {
+    font-size: 16px;
+}
+
+.dont a {
+    color: #009AEA;
+}
+
+form label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background: #eaf7ff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pilihan {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.remember {
+    width: 30px;
+    height: 20px;
+    margin-right: 5px;
+    color: gray;
+}
+
+button {
+    margin-top: 17px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 150px;
+    padding: 8px;
+    background: linear-gradient(to right, #00669e, #009AEA);
+    color: white;
+    border: none;
+    border-radius: 100px;
+}
+
+button:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+    color: #000000;
+    background: linear-gradient(to right, #00669e, #009AEA);
+    cursor: pointer;
+}
+
+.coba {
+    margin: 12px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #333;
+}
+
+.coba::before,
+.coba::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #000000;
+}
+
+.coba::before {
+    margin-right: 15px;
+}
+
+.coba::after {
+    margin-left: 15px;
+}
+
+.social:hover {
+    border-radius: 50px;
+    border: #009AEA solid 1px;
+    cursor: pointer;
+}
+
+.nyoba {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.forgot {
+    margin-top: 10px;
+}
+
+.forgot a {
+    color: #009AEA;
+}
+
+/* Error Message Styling */
+#errorMsg {
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 12px 15px !important;
+    border-left: 4px solid #dc3545;
+    background-color: #f8d7da !important;
+    color: #721c24 !important;
+    margin-top: 15px !important;
+}
+
+#errorMsg.alert {
+    margin-bottom: 0 !important;
+}
+
+/* Button Loading State */
+button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+/* Form Input Focus */
+form input[type="text"]:focus,
+form input[type="password"]:focus {
+    outline: none;
+    border: 1px solid #009AEA;
+    background: #ffffff;
+    box-shadow: 0 0 8px rgba(0, 154, 234, 0.3);
+}

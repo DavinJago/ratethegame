@@ -1,0 +1,76 @@
+body {
+    font-family: 'poppins';
+    background-color: grey;
+}
+
+.container-awal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-kedua {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 350px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px;
+    margin-top: 120px;
+}
+
+.logo-awal {
+    display: flex;
+    align-items: center;
+}
+
+.gambar {
+    margin-top: 8px;
+}
+
+.RTG {
+    font-family: Helvetica;
+    font-size: 40px;
+    padding-left: 15px;
+    color: #009AEA;
+}
+
+.judul b {
+    font-size: 22px;
+}
+
+.formulir {
+    font-family: 'poppins';
+    font-size: 16px;
+    width: 460px;
+    height: 45px;
+    padding: 10px;
+    margin: 8px 0px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #E8F7FF;
+}
+
+.lupa {
+    font-weight: 600;
+    font-family: 'poppins';
+    font-size: 20px;
+    width: 460px;
+    height: 45px;
+    color: white;
+    margin-top: 10px;
+    border: none;
+    border-radius: 100px;
+    background: linear-gradient(to right,#00669e, #009AEA);
+}
+
+.lupa:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+    color: #000000;
+    cursor: pointer;
+} 

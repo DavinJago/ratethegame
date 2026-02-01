@@ -1,0 +1,111 @@
+body {
+    font-family: 'poppins';
+    background-color: grey;
+}
+
+.gatau {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 750px;
+    background: linear-gradient(to bottom, white, #dcf0fc);
+    border-radius: 8px;
+    padding: 30px;
+    margin-top: 15px;
+}
+
+    .acc b {
+        font-size: 25px;
+    }
+
+.mantap {
+    display: flex;
+    align-items: center;
+}
+
+.RTG {
+    font-family: Helvetica;
+    font-size: 45px;
+    padding-left: 15px;
+    color: #009AEA;
+}
+
+.gambar {
+    margin-top: 8px;
+}
+
+.formulir {
+    font-family: 'poppins';
+    font-size: 16px;
+    width: 420px;
+    height: 45px;
+    padding: 10px;
+    margin: 8px 0px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #E8F7FF;
+}
+
+.daftar {
+    font-weight: 600;
+    font-family: 'poppins';
+    font-size: 20px;
+    width: 170px;
+    height: 45px;
+    color: white;
+    margin-top: 10px;
+    border: #009AEA;
+    border-radius: 100px;
+    background: linear-gradient(to right,#00669e, #009AEA);
+}
+
+.daftar:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+    color: #000000;
+    cursor: pointer;
+}
+
+.coba {
+    margin: 12px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #333;
+}
+
+.coba::before,
+.coba::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #000000;
+}
+
+.coba::before {
+    margin-right: 15px;
+}
+
+.coba::after {
+    margin-left: 15px;
+}
+
+.social:hover {
+    border-radius: 100px;
+    border: #009AEA solid 1px ;
+    cursor:pointer;
+}
+
+form a{
+    margin-left: 20px;
+    color: #009AEA;
+}

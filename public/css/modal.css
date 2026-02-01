@@ -1,0 +1,153 @@
+/* ===== Login & Register Modal Styling ===== */
+
+.modal-content {
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+    background: linear-gradient(to right, #00669e, #009AEA);
+    border-radius: 15px 15px 0 0;
+    padding: 25px !important;
+}
+
+.modal-header .modal-title {
+    color: white;
+    font-size: 24px;
+}
+
+.modal-header .btn-close {
+    filter: brightness(0) invert(1);
+}
+
+.modal-body {
+    padding: 25px !important;
+}
+
+/* Form Styling */
+.modal-body .form-label {
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.modal-body .form-control {
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    background-color: #f9f9f9;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.modal-body .form-control:focus {
+    border-color: #009AEA;
+    background-color: #fff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 154, 234, 0.25);
+}
+
+/* Button Styling */
+.modal-body .btn-primary {
+    background: linear-gradient(to right, #00669e, #009AEA);
+    border: none;
+    padding: 10px 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.modal-body .btn-primary:hover {
+    background: linear-gradient(to right, #004d6f, #0078b8);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(0, 154, 234, 0.3);
+}
+
+.modal-body .btn-primary:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+    transform: none;
+}
+
+/* Form Check Styling */
+.form-check-input {
+    width: 18px;
+    height: 18px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-check-input:checked {
+    background-color: #009AEA;
+    border-color: #009AEA;
+}
+
+.form-check-label {
+    margin-left: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Link Styling */
+.modal-body a {
+    color: #009AEA;
+    font-size: 13px;
+    transition: color 0.3s ease;
+}
+
+.modal-body a:hover {
+    color: #00669e;
+}
+
+/* Alert Styling */
+.modal-body .alert {
+    border-radius: 8px;
+    border: none;
+    padding: 12px 15px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.modal-body .alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.modal-body .alert-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+/* Modal Animation */
+.modal.fade .modal-dialog {
+    transition: transform 0.3s ease-out;
+    transform: scale(0.9);
+    opacity: 0;
+}
+
+.modal.show .modal-dialog {
+    transform: scale(1);
+    opacity: 1;
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+    .modal-dialog {
+        margin: 10px;
+    }
+    
+    .modal-body {
+        padding: 20px !important;
+    }
+    
+    .modal-header {
+        padding: 20px !important;
+    }
+    
+    .modal-header .modal-title {
+        font-size: 20px;
+    }
+}

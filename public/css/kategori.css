@@ -1,0 +1,267 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    padding-top:60px;
+}
+
+.bg-body-tertiary {
+    background: linear-gradient(to right, 
+    #009AEA, #0072b4);
+}
+
+.gambar {
+    width: 40px;
+    margin-right: 15px;
+}
+
+.navbar-brand {
+    font-family: Helvetica;
+    font-size: 20px;
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.form-control {
+    width: 500px;
+    border-radius: 20px;
+}
+
+.cari1 {
+    margin-left: -5px;
+    border: none;
+    background: none;
+}
+
+.cari {
+    margin: 10px;
+    color: white;
+}
+
+.col {
+    padding-top: 30px;      
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.kontainer {
+    padding-top: 5px;     
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.cari {
+    margin-left: 20px;
+    gap: 10px;
+}
+
+.game-hero {
+    position: relative;
+    height: 200px;
+    background: url('/images/re-bg.jpg') center/cover no-repeat;
+    margin-top: 10px;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to right, rgba(0,0,0,.8), rgba(0,0,0,.3));
+}
+
+.hero-content {
+    position: relative;
+    color: #fff;
+    padding-top: 50px;
+}
+
+.hero-content h1 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.hero-content p {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+.game-detail {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-weight: 700;
+    margin-bottom: 20px;
+    border-left: 4px solid #009aea;
+    padding-left: 10px;
+}
+
+.col-md-8 {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.lead {
+    font-size: 18px;
+}
+
+.game-sidebar {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.game-cover {
+    width: 375px;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.info-box,
+.platform {
+    margin-bottom: 15px;
+}
+
+.info-box span,
+.platform span {
+    font-size: 13px;
+    color: #777;
+}
+
+.info-box strong {
+    display: block;
+    font-size: 16px;
+}
+
+.rating-box {
+    background: #f3f3f3;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.rating-box .score {
+    font-size: 28px;
+    font-weight: 700;
+    color: #999;
+}
+
+.mb-2 {
+    display: flex;
+}
+
+
+.footer {
+    background: #eeeeee;
+    padding: 50px 0;
+    margin-top: 10px;
+    color: #444;
+}
+
+.footer-container {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-brand {
+    width: 30%;
+}
+
+.footer-brand h4 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.footer-brand p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #444;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.footer-col {
+    width: 18%;
+}
+
+.footer-col h5 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 8px;
+}
+
+.footer-col ul li a {
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+}
+
+.footer-col ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Rating */
+.star-rating {
+        display: flex;
+        gap: 5px;
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+    
+    .star-rating .star {
+        color: #ccc;
+        transition: color 0.2s, transform 0.2s;
+    }
+    
+    .star-rating .star:hover {
+        color: #ffc107;
+        transform: scale(1.1);
+    }
+    
+    .star-rating .star.active {
+        color: #ffc107;
+    }
+    
+    .star-rating .star.hover {
+        color: #ffd700;
+    }
+    
+    #rating-value {
+        font-weight: bold;
+        color: #ffc107;
+        font-size: 1.1em;
+    }
+    
+    #submit-rating:not(:disabled) {
+        background-color: #ffc107;
+        border-color: #ffc107;
+        color: #000;
+    }
