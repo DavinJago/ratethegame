@@ -12,8 +12,13 @@ Please excuse any limitations or simplicity, as this project is intended as a ba
 * Basic user profile system
 * And several other features
 
+## Contributos
+- Davin (CSS)
+- Hamzah (HTML)
+- Rizky (JS & Auth)
+- Tuppal (PHP & Database)
 
-### Installation & Setup (Laravel)
+## Installation & Setup (Laravel)
 
 Make sure you already have:
 
