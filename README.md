@@ -1,5 +1,10 @@
 # Rate The Game 👾
 
+![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white)
+![BSl](https://img.shields.io/badge/bootstrap-purple?style=for-the-badge&logo=bootstrap&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-yellow?style=for-the-badge&logo=javascript&logoColor=white)
+![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
+
 Rate The Game is a web application focused on video game ratings, similar to platforms like IMDb, IGN, and Metacritic — but in a simpler version.
 This project allows users to rate games freely, view detailed game information, explore upcoming and newly released games, read the latest gaming news, and access several other basic features.
 
