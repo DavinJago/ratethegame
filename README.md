@@ -52,7 +52,7 @@ Even though the project is placed inside xampp/htdocs, Laravel still requires:
 
 because Laravel uses its own development server.
 
-## Notes : the game page is not finished yet due to deadline.
+> Note: The game page is not fully completed due to the project deadline.
 
 <img width="2530" height="1348" alt="Screenshot 2026-02-01 232524" src="https://github.com/user-attachments/assets/32615f6d-e1bc-4318-8343-2ba5a390ac3e" />
 <img width="2527" height="1356" alt="Screenshot 2026-02-01 232555" src="https://github.com/user-attachments/assets/90a2200d-f013-4538-835e-644fb65c013f" />
